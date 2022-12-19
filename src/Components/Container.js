@@ -19,7 +19,7 @@ const Container = ({ city }) => {
    return (
       <div className="container">
          {dataItem.map((item) => (
-            <Item Data={item.DataList} city={item.cityName} />
+            <Item Data={item.DataList} city={item.cityName} on/>
          ))}
          {/* <h1>Welocome</h1> */}
       </div>
